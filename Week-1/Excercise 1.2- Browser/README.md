@@ -3,7 +3,7 @@
 1. <strong>What is the main functionality of the browser?</strong>
 <p>The primary function of a web browser is to render HTML, the code used to design or "mark up" webpages. Each time a browser loads a web page, it processes the HTML, which may include text, links, and references to images and other items, such as cascading style sheets and JavaScript functions. The browser processes these items, then renders them in the browser window.</p>
 
-<img src="https://github.com/prananshup/pesto-assignment/blob/week1-exercise1.1/resource/images/how%20browser%20works.JPG">
+<img src="https://github.com/pesto-students/p2-vaibhav-prananshup/blob/week1-excercise-1.2-browser/Week-1/Excercise%201.2-%20Browser/resource/images/how%20browser%20works.JPG">
 
 2. <strong>High Level Components of a browser</strong>
 <p>Primary components of a browser are</p>
@@ -12,7 +12,7 @@
 <p>Browser engine – It commands action between rendering engine and the user interface.</p>
 <p>Rendering engine – The main function of rendering engine is to display the content that is requested. For example, if an HTML content is requested, the engine parses CSS and HTML and when the content is parsed, it is displayed on the screen.</p>
 
-<img src="https://github.com/prananshup/pesto-assignment/blob/week1-exercise1.1/resource/images/web%20browser%20components.JPG">
+<img src="https://github.com/pesto-students/p2-vaibhav-prananshup/blob/week1-excercise-1.2-browser/Week-1/Excercise%201.2-%20Browser/resource/images/web%20browser%20components.JPG">
 
 3. <strong>Rendering engine and its use.</strong>
 <p>When a web page is loaded, the browser first reads the HTML text and constructs DOM Tree from it. Then it processes the CSS whether that is inline, embedded, or external CSS and constructs the CSSOM Tree from it. After these trees are constructed, then it constructs the Render-Tree from it. Once the Render-Tree is constructed, then the browser starts the printing individual elements on the screen.</p>
@@ -40,4 +40,4 @@ Style sheets on the other hand have a different model. Conceptually it seems tha
 <li>Layout computes the exact position and size of each object.</li>
 <li>The last step is paint, which takes in the final render tree and renders the pixels to the screen.</li></ol>
 
-<img src="https://github.com/prananshup/pesto-assignment/blob/week1-exercise1.1/resource/images/layout%20and%20painting.JPG">
+<img src="https://github.com/pesto-students/p2-vaibhav-prananshup/blob/week1-excercise-1.2-browser/Week-1/Excercise%201.2-%20Browser/resource/images/layout%20and%20painting.JPG">
