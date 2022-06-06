@@ -5,7 +5,7 @@ let fibo = (num) => {
             let i = 0, j = 1, k;
             let v = 0;
             return {
-                next() {
+                next: () => {
                     if (v < num) {
                         v++;
                         k = i + j;
@@ -21,7 +21,7 @@ let fibo = (num) => {
     }
 }
 
-for (const o of fibo(14)) {
+for (const o of fibo(12)) {
     console.log(o)
 }
 
