@@ -1,0 +1,20 @@
+The 'Product mindset' is basically thinking of things from a product point of view.
+Below are some points that developer should do/practice to have Product mindset.
+
+1. Understanding business of the customer
+2. Understanding why a product needs to be built in the first place
+    a. Understand the target users/audience
+    b. What problem this product is solving for the user
+    C. Be in the shoes of a user
+3. Converting high level ideas to functional requirements
+    a. Come up with set of questions which can help in converting these ideas to requirements which can be implemented in a final product.
+       Asking questions like - what kind of validations are required, how to verify a user, do we need seperate app versions for different
+       devices like Desktop/Mobile, do we need to consider different languages for non-speaking English customers.
+    b. Be vocal, be proactive, don't be afraid
+    c. Go beyond of what's asked - helps to catch any missouts at early stages, come up with innovative ideas which will enhance user experience.
+4. Helps in improving Design Thinking of a developer
+5. Helps developers to achieve good leadership qualities and to be a great product thinker
+6. Be responsible, take ownership
+7. Adapt
+    a. Be Ready to adapt new ideas in this fast changing world of technology
+8. Be a good listener
