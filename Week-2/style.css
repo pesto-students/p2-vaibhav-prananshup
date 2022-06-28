@@ -1,0 +1,23 @@
+.header {
+    text-align: center;
+}
+
+.wrapper {
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 1fr 1fr;
+}
+
+.img-wrapper {
+    grid-row: span 2;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+    .wrapper {
+        display: grid;
+        gap: 2em;
+        grid-template-columns: 1fr;
+    }
+}
