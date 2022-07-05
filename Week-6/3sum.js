@@ -1,36 +1,34 @@
-const arr = [-1, 2, 1, -3, 5, 6], target = -1;
-let sum, diff, result;
+//3Sum Closest - return sum of triplet closest to target
+const nums = [1,1,-1,-1,3], target = -1;
+let sum, diff = Infinity, result;
 
-console.log("result -- ", threesum());
+console.log("result -- ", threesum()); // -1
 
 function threesum() {
+    let len = nums.length
+    nums.sort((a, b) => a - b);
+    for (let i = 0; i < len - 2; i++) {
 
-    for (let i = 0; i < arr.length - 2; i++) {
-        let j = i + 1;
-        while (j < arr.length - 1) {
-            let k = j + 1;
-            while (k < arr.length) {
-                
-                sum = arr[i] + arr[j] + arr[k];
-    
-                if (sum == target) {
-                    console.log(...[arr[i], arr[j]], arr[k], ' sum -', arr[i] + arr[j] + arr[k], ' target-', target);
-                    return 0;
-                }
-                
-                diff = sum > target ? sum - target : target - sum;
-                console.log(...[arr[i], arr[j]], arr[k], ' sum -', arr[i] + arr[j] + arr[k], ' target-', target, ' diff-', diff);
-                if (!result) {
-                    result = diff;
-                } else if (diff < result){
-                    result = diff
-                }
-    
-                k++;
+        let low = i + 1, high = len - 1;
+
+        while (low < high) {
+            sum = nums[i] + nums[low] + nums[high];
+
+            if (sum == target) return sum;
+
+            const a = Math.abs(target - sum)
+            if (diff > a) {
+                diff = a;
+                result = sum;
             }
-            j++;
+
+            if (sum > target) {
+                high--;
+            } else {
+                low++;
+            }
         }
-    
+
     }
     return result;
 }
