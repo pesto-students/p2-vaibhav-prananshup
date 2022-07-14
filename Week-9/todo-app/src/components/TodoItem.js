@@ -2,7 +2,7 @@
 const TodoItem = ({todo, type, todoDoneHandler}) => {
     return (
         <li>
-           {todo.text} - {todo.done.toString()}
+           {todo.text}
            { type === 'TODO' 
               ? <div><button type="button" onClick={() => todoDoneHandler(todo.id)}>Done</button></div>
               : ''
